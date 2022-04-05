@@ -1,0 +1,95 @@
+.product {
+    display: flex;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+
+    .prod-image1 {
+      background-image: url(../images/red-journal-big.avif);
+     height: 500px;
+    width: 500px;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      // border-radius: 50%;
+      // background-color: aqua;
+    }
+   
+    .prod-desc {
+        margin: 0 auto;
+       text-align: center;
+
+
+      .small-image{
+          background-color: $site-yellow;
+          margin: 0 auto;
+          background-image: url(/images/red-journal-small.avif);
+          height: 200px;
+          width: 200px;
+          background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      }
+      .bloom-price{
+          min-height: 30px;
+          width: 200px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 16px;
+        width: 200px;
+      }
+    }
+  }
+.products-page{
+    padding: 50px;
+
+    .journals{
+        height: 300px;
+        width: 100%;
+        // background-color: green;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .image1{
+            min-height: 300px ;
+            width: 300px;
+            // background-color: red;
+            background-image: url(../images/journal1.avif);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+        }
+        .image2{
+            min-height: 300px ;
+            width: 300px;
+            // background-color: red;
+            background-image: url(../images/journal2.avif);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+        }
+        .image3{
+            min-height: 300px ;
+            width: 300px;
+            // background-color: red;
+            background-image: url(../images/journal3.avif);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+
+        }
+
+
+    }
+
+
+}

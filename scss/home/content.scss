@@ -1,0 +1,50 @@
+.content {
+  //   background-color: red;
+  padding: 50px;
+
+  .products {
+    width: 900px;
+    // background-color: blue;
+    min-height: 50px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .product {
+      display: flex;
+      margin-bottom: 50px;
+
+      justify-content: space-between;
+      .prod-image1 {
+        background-image: url(../images/wedding-image.avif);
+        height: 500px;
+        width: 500px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        // border-radius: 50%;
+        // background-color: aqua;
+      }
+      .prod-image2 {
+        margin-right: 50px;
+        background-image: url(../images/Papier_Thankyounote_01-1.webp);
+        height: 500px;
+        width: 500px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        // border-radius: 50%;
+        // background-color: aqua;
+      }
+      .prod-desc {
+        margin-top: 250px;
+        width: 500px;
+        text-align: left;
+        h4{
+          font-size: 30px;
+        }
+      }
+    }
+  }
+}

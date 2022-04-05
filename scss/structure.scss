@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100%;
+
+  .header{
+    margin: 0 auto;
+    width: 100%;
+    height: 60px;
+    background-color: $site-white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    h1{
+      color: $site-black;
+    }
+  
+  }
+  
+}
+
+#app {
+  min-height: calc(100vh - 100px);
+  width: 100%;
+  //   background-color: aqua;
+  padding: 20px;
+  background-color: $site-white;
+}
+
+.hero {
+  min-height: 550px;
+  //   background-color: purple;
+  background-image: url(../images/https___d1o785do8fyxgx.cloudfront.net_user_photos_images_000_577_327_original_0322_March_HPG_Notecards_HiRes.avif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-hero{
+  min-height: 550px;
+  //   background-color: purple;
+  background-image: url(../images/about-header.avif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
